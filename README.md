@@ -38,3 +38,7 @@ This produces `dist/` with the extension built and ready to go.
 1. `about:debugging#/runtime/this-firefox`
 2. Click "Load Temporary Add-on…" and select `dist/manifest.json`
 3. Note: temporary add-ons are removed when Firefox restarts and need to be reloaded after each rebuild.
+
+## Icon
+
+<a href="https://www.flaticon.com/free-icon/dollar_9382189">Coin icon</a> created by <a href="https://www.flaticon.com/authors/najmunnahar">NajmunNahar</a></a>
