@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Drumpf Account",
+  "version": "0.0.1",
+  "description": "Replaces 'Trump Account' text on web pages with '530A IRA'.",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
